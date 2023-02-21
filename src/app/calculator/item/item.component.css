@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Square-deal";
+  src: url('../../../assets/font/square-deal.ttf');
+}
+
+p {
+  font-family: Square-deal;
+}

@@ -1,0 +1,4 @@
+<div class="container">
+    <app-input-bar [currentNumber]="currentNumber"></app-input-bar>
+    <app-keyboard (numberEvent)="onNumberClicked($event)" (operationEvent)="onOperationClicked($event)"></app-keyboard>
+</div>

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Calculator" ;
+    src: url('../../../assets/font/Calculator.ttf');
+}
+
+.container {
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.expression {
+    display: flex;
+    width: fit-content;
+    justify-content: space-around;
+    padding-left: 2rem;
+    font-family: Calculator;
+}
+
+.container > div {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 3rem;
+    color: white;
+}

@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="digitsContainer">
+    <app-item *ngFor="let number of digits" [itemName]="number" (click)="onNumberClicked(number)"></app-item>
+    </div>
+    <div class="operationsContainer">
+        <app-item *ngFor="let operation of operations" [itemName]="operation" (click)="onOperationClicked(operation)"></app-item>
+    </div>
+</div>
+

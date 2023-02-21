@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.digitsContainer {
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    text-align: center;
+}
+
+.operationsContainer {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.operationsContainer > app-item {
+    width: 10rem;
+}
+
+app-item {
+    margin: 0.2rem;
+    cursor: pointer;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: rgb(60, 60, 60);
+    color: rgba(255, 255, 255, 0.884);
+    font-size: xx-large;
+    transition: all 0.2s ease;
+}
+
+app-item:hover {
+    background-color: rgb(99, 99, 99);
+}
